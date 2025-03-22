@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sentence-transformers = "2.7.0"
+streamlit = "1.31.0"  # Known to work with older PyTorch
+
+langchain-groq = "*"
+langchain-community = "*"
+pypdf = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
